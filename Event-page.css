@@ -1,0 +1,101 @@
+nav ul {
+    display: flex;
+    text-decoration: none;
+    padding: 20px 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #2cc1b2;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 15px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+.sports-events,
+.concerts,
+.preforming-arts,
+.community-events {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.sports-events article,
+.concerts article,
+.preforming-arts article,
+.community-events article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  flex: 1 1 300px;
+  max-width: 340px;
+}
+
+.sports-events h2,
+.concerts h2,
+.preforming-arts h2,
+.community-events h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ff1c99;
+    margin-bottom: 20px;
+}
+
+.sports-events .sports-cards,
+.preforming-arts .preforming-cards,
+.concerts .concert-cards,
+.community-events .community-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.sports-events article img,
+.concerts article img,
+.preforming-arts article img,
+.community-events article img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+
+body {
+    background: url('pics/HeroImagefinal.png');
+    background-size: cover;
+}
+
+button {
+    background-color: coral;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: grabbing;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+

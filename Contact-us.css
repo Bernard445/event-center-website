@@ -1,0 +1,58 @@
+nav ul {
+    display: flex;
+    text-decoration: none;
+    padding: 20px 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #2cc1b2;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 15px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+
+}
+
+body {
+    background: url('pics/HeroImagefinal.png');
+    background-size: cover;
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+button {
+    background-color: coral;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: grabbing;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    transform: scale(0.9);
+}

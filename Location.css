@@ -1,0 +1,32 @@
+body {
+    background: url('pics/HeroImagefinal.png');
+    background-size: cover;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    padding: 20px 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #2cc1b2;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 15px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+
+}
+
+section {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+}
